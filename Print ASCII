@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int PrintASCII(int s,int e){
+    int i,j;
+    for(i=s;i<=e;i++)
+        printf("%d '%c' ", i ,i);//print ASCII 32 to 126
+    return 0;
+}
+
+int main()
+{
+    int i;
+    for(i=32;i<=126;i++){
+        printf("%d '%c' ", i ,i);//print ASCII 32 to 126
+
+    }
+
+    int s, f;//starting and finishing number
+    printf("\nplease input the starting and finishing ASCII codes:");//
+    scanf("%d %d", &s, &f);
+    PrintASCII(s,f);
+    return 0;
+}
