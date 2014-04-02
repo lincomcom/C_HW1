@@ -3,7 +3,7 @@
 int PrintASCII(int s,int e){
     int i,j;
     for(i=s;i<=e;i++)
-        printf("%d '%c' ", i ,i);//print ASCII 32 to 126
+        printf("%d '%c' ", i ,i);//print ASCII from s to f
     return 0;
 }
 
